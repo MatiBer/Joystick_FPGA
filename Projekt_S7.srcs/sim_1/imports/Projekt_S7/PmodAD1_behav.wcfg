@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PmodAD1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PmodAD1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="24.240001 us"></ZoomEndTime>
+      <Cursor1Time time="11.240000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/PmodAD1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/cs" type="logic">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/data_0" type="logic">
+      <obj_property name="ElementShortName">data_0</obj_property>
+      <obj_property name="ObjectShortName">data_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/data_1" type="logic">
+      <obj_property name="ElementShortName">data_1</obj_property>
+      <obj_property name="ObjectShortName">data_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/exdata_0" type="array">
+      <obj_property name="ElementShortName">exdata_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">exdata_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/exdata_1" type="array">
+      <obj_property name="ElementShortName">exdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">exdata_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/adc_0" type="array">
+      <obj_property name="ElementShortName">adc_0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/adc_1" type="array">
+      <obj_property name="ElementShortName">adc_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/led_reg" type="array">
+      <obj_property name="ElementShortName">led_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/spi_rx_data_0" type="array">
+      <obj_property name="ElementShortName">spi_rx_data_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_rx_data_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/spi_rx_data_1" type="array">
+      <obj_property name="ElementShortName">spi_rx_data_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_rx_data_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/spi_enable" type="logic">
+      <obj_property name="ElementShortName">spi_enable</obj_property>
+      <obj_property name="ObjectShortName">spi_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/spi_busy" type="logic">
+      <obj_property name="ElementShortName">spi_busy</obj_property>
+      <obj_property name="ObjectShortName">spi_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PmodAD1/SPI_Master_0/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+</wave_config>
